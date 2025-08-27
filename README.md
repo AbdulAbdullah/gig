@@ -1,6 +1,5 @@
 # Numerical Methods & Engineering Simulation Portfolio
 
-**Author:** Abdul  
 **Focus:** Advanced Numerical Computing & Mathematical Modeling  
 **Technologies:** Python, NumPy, SciPy, Matplotlib  
 
