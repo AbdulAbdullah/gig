@@ -1,16 +1,14 @@
 """
 Question 3: Data Interpolation and Extrapolation
-CE2PNM Resit Assignment Part 1: 2024-25
+ Part 1: 2024-25
 
-Author: Abdul
-Date: August 14, 2025
-Module: CE2PNM Numerical Modelling and Projects
+Module: Numerical Modelling and Projects
 
 This script implements comprehensive data interpolation and extrapolation techniques
 using fuel consumption data. The implementation addresses polynomial fitting, spline
-interpolation, and advanced extrapolation methods as specified in the assignment brief.
+interpolation, and advanced extrapolation methods as specified in the ment brief.
 
-Assignment Questions Addressed:
+Questions Addressed:
 3.1 Implement various interpolation methods for fuel consumption data
 3.2 Compare interpolation accuracy using different polynomial degrees and spline methods
 3.3 Perform extrapolation analysis and validate prediction quality
@@ -659,7 +657,7 @@ class DataInterpolationAnalyzer:
         print("="*80)
         
         print("✓ Data Interpolation and Extrapolation Analysis Completed")
-        print("✓ All assignment objectives addressed:")
+        print("✓ All objectives addressed:")
         print("  • 3.1: Polynomial interpolation with multiple degrees")
         print("  • 3.2: Spline interpolation comparison")
         print("  • 3.3: Advanced interpolation methods")
@@ -782,7 +780,7 @@ def main():
     """
     Main execution function for Question 3: Data Interpolation and Extrapolation.
     """
-    print("CE2PNM Resit Assignment - Question 3: Data Interpolation and Extrapolation")
+    print("Question 3: Data Interpolation and Extrapolation")
     print("=" * 80)
     
     # Load or create data

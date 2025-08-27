@@ -1,16 +1,15 @@
 """
 Question 4: Boundary Value Problem - Finite Differencing Schemes
-CE2PNM Resit Assignment Part 1: 2024-25
+Part 1: 2024-25
 
-Author: Abdul
-Date: August 14, 2025
+
 Module: CE2PNM Numerical Modelling and Projects
 
 This script implements the Successive over-Relaxation (SOR) method for solving 
 two-dimensional steady-state temperature field problems. The implementation addresses 
 a boundary value problem using finite differencing schemes to solve the Poisson equation.
 
-Assignment Questions Addressed:
+Questions Addressed:
 4.1 SOR method implementation on 20×20 grid with error tolerance 1e⁻⁶
 4.2 Convergence analysis - determine iterations needed
 4.3 Temperature field visualization with contour plots
@@ -511,7 +510,7 @@ class TemperatureFieldSolver:
         print("  - temperature_field_analysis.png")
         print("  - sor_convergence_analysis.png")
         print("\n🎉 Question 4 completed successfully!")
-        print("\nAll assignment questions (1-4) now implemented with professional quality!")
+        print("\nAll questions (1-4) now implemented with professional quality!")
         
         # Summary of problem solved
         print(f"\n" + "="*60)
@@ -531,7 +530,7 @@ def main():
     Main execution function demonstrating all capabilities of the SOR solver.
     This function runs the complete analysis for Question 4.
     """
-    print("CE2PNM Resit Assignment - Question 4: Boundary Value Problem SOR Solver")
+    print("- Question 4: Boundary Value Problem SOR Solver")
     print("=" * 80)
     
     # 4.1: Initialize solver and solve using SOR method

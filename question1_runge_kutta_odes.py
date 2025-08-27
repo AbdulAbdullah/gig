@@ -1,16 +1,14 @@
 """
 Question 1: System of Ordinary Differential Equations (ODEs) and Runge-Kutta (RK)
-CE2PNM Resit Assignment Part 1: 2024-25
 
-Author: Abdul
-Date: August 14, 2025
-Module: CE2PNM Numerical Modelling and Projects
+
+Module:  Numerical Modelling and Projects
 
 This script implements the Runge-Kutta 4th order method for solving systems of ordinary 
 differential equations (ODEs). The implementation progresses from basic 2-ODE systems to 
 more complex 3-ODE systems and includes a generalized solver for multiple-ODE systems.
 
-Assignment Questions Addressed:
+Questions Addressed:
 1.1 Develop RK4 code for solving a system of two ODEs
 1.2 Find and plot solution for a 2-ODE system over a chosen range
 1.3 Expand to 3-ODE systems using the logic from 1.1
@@ -525,7 +523,7 @@ def main():
     Main execution function demonstrating all capabilities of the RK4 solver.
     This function runs all examples and generates complete analysis for Question 1.
     """
-    print("CE2PNM Resit Assignment - Question 1: Runge-Kutta ODE Solver")
+    print("Question 1: Runge-Kutta ODE Solver")
     print("=" * 70)
     
     # Initialize solver

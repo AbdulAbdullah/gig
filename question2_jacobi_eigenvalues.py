@@ -1,16 +1,16 @@
 """
 Question 2: Eigenvalues using Jacobi Rotation Method
-CE2PNM Resit Assignment Part 1: 2024-25
+Part 1: 2024-25
 
 Author: Abdul
 Date: August 14, 2025
-Module: CE2PNM Numerical Modelling and Projects
+Module: Numerical Modelling and Projects
 
 This script implements the Jacobi rotation method for computing eigenvalues and eigenvectors 
 of real symmetric matrices. The implementation addresses the transformation matrix evaluation 
-and eigenvalue calculation as specified in the assignment brief.
+and eigenvalue calculation as specified in the brief.
 
-Assignment Questions Addressed:
+Questions Addressed:
 2.1 Write code for evaluating the transformation to A' for the first full sweep of Jacobi rotations
 2.2 Determine eigenvalues of specified matrices using the implemented code
 2.3 Repeat calculations for additional matrices to demonstrate method effectiveness
@@ -363,21 +363,21 @@ class JacobiEigenvalueSolver:
     
     def test_assignment_matrices(self):
         """
-        Test the specific matrices mentioned in the assignment (Question 2.2).
+        Test the specific matrices mentioned in the (Question 2.2).
         
         Returns:
         results (list): Results for each test matrix
         """
-        print("\n2.2: Testing Assignment Specified Matrices")
+        print("\n2.2: Testing Specified Matrices")
         print("=" * 50)
         
         results = []
         
-        # Matrix 1: 2x2 symmetric matrix from assignment
+        # Matrix 1: 2x2 symmetric matrix 
         A1 = np.array([[0, 1],
                        [1, 0]], dtype=float)
-        
-        print(f"\nMatrix 1: Assignment 2×2 Matrix")
+
+        print(f"\nMatrix 1: 2×2 Matrix")
         print(A1)
         print(f"Symmetric: {np.allclose(A1, A1.T)}")
         
@@ -388,7 +388,7 @@ class JacobiEigenvalueSolver:
         eigenvals_analytical = np.array([-1.0, 1.0])
         
         result1 = {
-            'matrix': 'Assignment 2×2',
+            'matrix': '2×2',
             'original': A1,
             'eigenvalues_jacobi': eigenvals_1,
             'eigenvalues_analytical': eigenvals_analytical,
@@ -615,7 +615,7 @@ class JacobiEigenvalueSolver:
         print("="*60)
         print("✓ Jacobi rotation method implemented with full transformation tracking")
         print("✓ First full sweep analysis completed (Question 2.1)")
-        print("✓ Assignment matrices solved successfully (Question 2.2)")
+        print("✓ matrices solved successfully (Question 2.2)")
         print("✓ Multiple matrix types tested (Question 2.3)")
         print("✓ Mathematical properties verified")
         print("✓ Convergence analysis completed")
@@ -643,7 +643,7 @@ def main():
     """
     Main execution function demonstrating all capabilities of the Jacobi eigenvalue solver.
     """
-    print("CE2PNM Resit Assignment - Question 2: Jacobi Eigenvalue Method")
+    print("- Question 2: Jacobi Eigenvalue Method")
     print("=" * 70)
     
     # Initialize solver
@@ -661,9 +661,9 @@ def main():
     
     transformation_data = solver.analyze_first_sweep_transformations(A_test)
     
-    # 2.2: Assignment specified matrices
+    # 2.2: specified matrices
     print("\n" + "="*70)
-    print("2.2: ASSIGNMENT SPECIFIED MATRICES")
+    print("2.2: SPECIFIED MATRICES")
     print("="*70)
     
     assignment_results = solver.test_assignment_matrices()
